@@ -1,99 +1,241 @@
-body {
-    background-color: #EAC926;
-
-}
-
-html {
-    font-family: Roboto;
-}
-
-main {
-    text-align: center;
-}
-
-p {
-    font-size: 12px;
-}
-
-.visita {
-    font-size: 24px;
-}
-
-.precio {
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.descuento {
-    font-size: 16px;
-    font-weight: 300;
-    color:  #39b54a;
-}
-
-.cuotas {
-    margin-left: 10%;
-}
-
-.burger-menu {
-    padding: 12px;
-    background-color:#03264C;
-    color: white;
-    margin-left: 40%;
-    margin-bottom: 10%
-}
 
 
-a {
-    text-decoration: none;
-    color: black;
-}
+@media (min-width: 361px){
 
-.tarjeta {
-    padding: 12px;
-    color: #03264C;
-    margin: auto;
-}
-
-footer{
-    text-align: center;
-}
-
-footer i {
-    font-size: 32px;
-    color: blue;
-    margin-bottom: 1rem;
-    margin-top: 5rem;
     
-}
-
-
-h3 {
-    font-size: 24px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-footer h3 {
-    font-size: 16px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.camion {
-    font-size: 32px;
-    text-align: center;
-    /*padding: 1rem;*/
-    color: #39b54a;
-}
-
-.articulo {
-
-    font-size: 18px;
-    font-weight: bold;
-}
-
-article {
+    body {
+        background-color: #EAC926;
     
-    background-color: white;
- 
+    }
+    
+    html {
+        font-family: Roboto;
+    }
+    
+    main {
+        text-align: center;
+        width: 90vw;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+    
+    .visita {
+        font-size: 24px;
+    }
+    
+    .precio {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .descuento {
+        font-size: 16px;
+        font-weight: 300;
+        color:  #39b54a;
+    }
+    
+    .cuotas {
+        margin-left: 10%;
+    }
+    
+    .burger-menu {
+        padding: 12px;
+        background-color:#03264C;
+        color: white;
+        margin-left: 40%;
+        margin-bottom: 10%;
+        display: none;
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .tarjeta {
+        padding: 12px;
+        color: #03264C;
+        margin: auto;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer i {
+        font-size: 32px;
+        color: blue;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+        
+    }
+    
+    
+    h3 {
+        font-size: 24px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    footer h3 {
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .camion {
+        font-size: 32px;
+        text-align: center;
+        /*padding: 1rem;*/
+        color: #39b54a;
+    }
+    
+    .articulo {
+    
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+       
+    }
+    
+    article {
+        
+        background-color: white;
+        margin-bottom: 10px;
+     
+    }
+    
+    section{
+        border: solid 1px #ebebeb;
+        margin-top: 15px;
+        
+    }
 }
+
+@media (max-width: 769px){
+
+    .login {
+        display: none;
+    } 
+
+    .site {
+        display: none;
+    }
+
+    body {
+        background-color: #EAC926;
+    
+    }
+    
+    html {
+        font-family: Roboto;
+    }
+    
+    main {
+        text-align: center;
+        width: 90vw;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+    
+    .visita {
+        font-size: 24px;
+    }
+    
+    .precio {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .descuento {
+        font-size: 16px;
+        font-weight: 300;
+        color:  #39b54a;
+    }
+    
+    .cuotas {
+        margin-left: 10%;
+    }
+    
+    .burger-menu {
+        padding: 12px;
+        background-color:#03264C;
+        color: white;
+        margin-left: 40%;
+        margin-bottom: 10%;
+       
+        
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .tarjeta {
+        padding: 12px;
+        color: #03264C;
+        margin: auto;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    footer i {
+        font-size: 32px;
+        color: blue;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+        
+    }
+    
+    
+    h3 {
+        font-size: 24px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    footer h3 {
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .camion {
+        font-size: 32px;
+        text-align: center;
+        /*padding: 1rem;*/
+        color: #39b54a;
+    }
+    
+    .articulo {
+    
+        font-size: 18px;
+        font-weight: bold;
+        display: none;
+    }
+    
+    article {
+        
+        background-color: white;
+        margin-bottom: 10px;
+       
+     
+    }
+    
+    section{
+        border: solid 1px #ebebeb;
+        margin-top: 15px;
+        
+    }
+}
+
