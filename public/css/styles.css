@@ -156,15 +156,23 @@ article {
 
 .control-formulario label {
     margin-bottom: 5px;
-    font-style: italic;
+    font-style: bold;
     display: block;
 }
 
 .control {
-    width: 100%;
+    width: 95%;
     padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    
 }
 
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+  
+}
 .boton-formulario {
     background-color: var(--Verde);
     border: none;
