@@ -117,16 +117,14 @@ p.descuento {
     color: black
 }
 .articulo {
-    display: none;
     text-align: left;
     padding: 24px;
     color: var(--Gris-claro);
+    opacity: 0;
     
 }
 
-.articulo:hover {
-    display: none;
-}
+
 
 .abajoArticulo {
     border-top: 1px solid #ebebeb;
@@ -147,15 +145,15 @@ p.descuento {
     top: -15px;
 }
 
-.abajoArticulo i:hover {
-    transform: rotate(270deg);
-}
+
 
 article {
     margin: 12px 0;
     background-color: white;
     font-size: 19px;
 }
+
+
 .create-form {
     padding: 20px 15px;
 }
@@ -200,9 +198,6 @@ img {
     margin-right: auto;
 }
 
-article {
-    box-shadow: 0px 0px 10px #ebebeb (100, 100, 100);
-}
 
 .hamburguer-buton {
     background-color: var(--Celeste);
@@ -237,21 +232,40 @@ footer i:hover {
    color: red;
 }
 
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition: all 2s;
+}
+
+article:hover .articulo {
+    opacity: 1;
+    transition: opacity 2s;
+
+}
+
+article:hover i {
+    transform: rotate(-90deg);
+    transition: all 2s;
+}
+
+article {
+    box-shadow: 0px 0px 10px #ebebeb (100, 100, 100);
+    
+
+
+}
+
 
 @media (min-width: 769px) {
 
-    .articulo {
-        display: block;
-    }
+  
     .hamburguer-buton {
         display: none;
     }
     .navegador {
         display: block;
     }
-    article:hover {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+ 
     .logo {
         width: 30%;
     }
